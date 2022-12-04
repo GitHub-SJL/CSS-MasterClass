@@ -46,7 +46,7 @@
 
 * justify-content와 비슷하지만 'line'에 관한 것
 * 행 간 공백을 얼마나 둘건지
-<img src="https://i.ibb.co/jhZgMC5/justfiy-content.png" alt="justfiy-content" width="400" height="200">
+<img src="https://i.ibb.co/jhZgMC5/justfiy-content.png" alt="justfiy-content" width="500" height="300">
 
 - [x] flex-grow
 * child에게 줄 수 있는 property
@@ -65,11 +65,16 @@
 
 ## Grid:
 
-- [ ] grid-template-columns
-- [ ] grid-template-rows
-- [ ] column-gap
-- [ ] row-gap
-- [ ] gap
+- [x] grid-template-columns
+* 각 column의 크기와 개수
+- [x] grid-template-rows
+* 각 row의 크기와 개수
+- [x] column-gap
+* column 사이 공간 크기
+- [x] row-gap
+* row 사이 공간 크기
+- [x] gap
+* column과 row 사이 공간 크기를 한번에 적용
 - [ ] grid-template-areas
 - [ ] grid-column-start
 - [ ] grid-column-end
