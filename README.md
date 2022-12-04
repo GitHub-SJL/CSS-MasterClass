@@ -75,7 +75,12 @@
 * row 사이 공간 크기
 - [x] gap
 * column과 row 사이 공간 크기를 한번에 적용
-- [ ] grid-template-areas
+- [x] grid-template-areas
+* 자식들에게 grid-area로 변수를 주면 그것들을 template에 각각의 레이아웃으로 지정가능
+    * grid-area에 있는 이름과 grid-template-areas에 있는 이름이 같아야함
+    * 조건
+        * 같은 영역으로 이어져 있어야함
+        * grid-area 지정한곳이 'ㄱ'자나 'ㄴ'자 모양이면 안되고 직사각형이나 정사각형일때만 실행
 - [ ] grid-column-start
 - [ ] grid-column-end
 - [ ] grid-row-start
