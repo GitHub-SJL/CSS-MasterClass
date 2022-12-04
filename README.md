@@ -107,11 +107,16 @@
 * 수직
 - [x] place-items
 * 수직 수평
-* 자식들을 늘여서 본인을 채움
+* 자식들을 늘이거나 이동시켜 grid를 채움
 * * *
-- [ ] justify-content
-- [ ] align-content
-- [ ] place-content
+- [x] justify-content
+* 수평
+- [x] align-content
+* 수직
+- [x] place-content
+* 수직 수평
+* content는 grid 전체배열을 움직여줌
+
 * * *
 - [ ] justify-self
 - [ ] align-self
