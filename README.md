@@ -95,7 +95,12 @@
     * 숫자와 같이 사용 가능
     * span을 하나의 cell로 인식
 
-- [ ] grid-template
+- [x] grid-template
+* grid-area를 사용
+* grid-template-areas 와의 차이점은 row의 높이를 한 행마다 정함
+* 마지막 행에 높이와 각각의 넓이를 적어줌
+    * ex) footer footer footer footer 1fr / 1fr 1fr 1fr 1fr
+
 - [ ] justify-items
 - [ ] align-items
 - [ ] place-items
@@ -111,8 +116,11 @@
 
 ### Keywords & Functions:
 
-- [ ] repeat
-- [ ] fr
+- [x] repeat
+- [x] fr
+* grid에서 사용 가능한 공간
+* fr값 비율로 공간을 나눈다
+* block은 height가 기본값으로 0이기때문에 container에 height를 값을 주지않으면 fr로 높이 지정이 되지 않음.
 - [ ] minmax
 - [ ] auto-fit
 - [ ] auto-fill
