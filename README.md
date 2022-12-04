@@ -81,12 +81,20 @@
     * 조건
         * 같은 영역으로 이어져 있어야함
         * grid-area 지정한곳이 'ㄱ'자나 'ㄴ'자 모양이면 안되고 직사각형이나 정사각형일때만 실행
-- [ ] grid-column-start
-- [ ] grid-column-end
-- [ ] grid-row-start
-- [ ] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
+- [x] grid-column-start
+- [x] grid-column-end
+- [x] grid-row-start
+- [x] grid-row-end
+- [x] grid-column
+- [x] grid-row
+* 자식에게 지정
+* grid를 시작하는 라인과 끝나는 라인들을 각각 지정 가능
+* 각 라인을 숫자로 인덱싱
+    * 뒤에서 부터 인덱싱도 가능 (마지막 라인은 -1)
+* span으로 시작점과 끝점을 대신 할수도 있음
+    * 숫자와 같이 사용 가능
+    * span을 하나의 cell로 인식
+
 - [ ] grid-template
 - [ ] justify-items
 - [ ] align-items
