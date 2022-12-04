@@ -153,9 +153,11 @@
 6번 박스가 추가가 되면 fill은 빈 칸에 추가 되고, fit은 다른 박스들의 넓이를 줄여 6개가 꽉차게 배치
 
 * * *
-- [ ] min-content
-- [ ] max-content
-
+- [x] min-content
+* content의 크기를 최대한 줄여 cell의 크기를 줄인다.
+- [x] max-content
+* content의 크기만큼 cell의 크기를 늘린다.
+* repeat(), minmax와 결합하여 반응형 디자인을 만들 수 있다.
 ## SCSS:
 
 - [ ] Variables
