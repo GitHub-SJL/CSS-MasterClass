@@ -118,12 +118,20 @@
 * content는 grid 전체배열을 움직여줌
 
 * * *
-- [ ] justify-self
-- [ ] align-self
-- [ ] place-self
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-auto-columns
+- [x] justify-self
+- [x] align-self
+- [x] place-self
+* place-items의 작동을 개별적으로 주고싶을때 사용 
+* * *
+- [x] grid-auto-rows
+*  만들어놓은 row보다 더 많은 content가 있으면, 자동으로 row를 만듬
+- [x] grid-auto-flow
+* flex-direction과 비슷
+* row가 끝날 때 새로운 row를 만들지, 새로운 column을 만들지 결정
+- [x] grid-auto-columns
+* grid-auto-flow: column;일때 작동한다.
+
+* * *
 
 ### Keywords & Functions:
 
