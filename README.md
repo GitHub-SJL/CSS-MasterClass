@@ -143,8 +143,16 @@
 - [x] minmax
 * 화면 크기가 줄어들거나 늘어날때 한계(제한) 값 설정
 * minmax(최소, 최대)
-- [ ] auto-fit
-- [ ] auto-fill
+* * *
+- [x] auto-fit
+* 화면에서 남는 자리를 element들로 채움. (크기 화면에 맞게 늘어남)
+- [x] auto-fill
+* 화면에서 남는 자리를 빈 칸으로 채움. (크기 고정, 칸 수 늘어남)
+<br>
+<img src="https://i.ibb.co/tMypbkR/auto.png" alt="auto" border="0">
+6번 박스가 추가가 되면 fill은 빈 칸에 추가 되고, fit은 다른 박스들의 넓이를 줄여 6개가 꽉차게 배치
+
+* * *
 - [ ] min-content
 - [ ] max-content
 
