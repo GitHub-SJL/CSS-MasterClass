@@ -140,7 +140,9 @@
 * grid에서 사용 가능한 공간
 * fr값 비율로 공간을 나눈다
 * block은 height가 기본값으로 0이기때문에 container에 height를 값을 주지않으면 fr로 높이 지정이 되지 않음.
-- [ ] minmax
+- [x] minmax
+* 화면 크기가 줄어들거나 늘어날때 한계(제한) 값 설정
+* minmax(최소, 최대)
 - [ ] auto-fit
 - [ ] auto-fill
 - [ ] min-content
