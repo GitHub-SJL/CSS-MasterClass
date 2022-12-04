@@ -100,13 +100,19 @@
 * grid-template-areas 와의 차이점은 row의 높이를 한 행마다 정함
 * 마지막 행에 높이와 각각의 넓이를 적어줌
     * ex) footer footer footer footer 1fr / 1fr 1fr 1fr 1fr
-
-- [ ] justify-items
-- [ ] align-items
-- [ ] place-items
+* * *
+- [x] justify-items
+* 수평
+- [x] align-items
+* 수직
+- [x] place-items
+* 수직 수평
+* 자식들을 늘여서 본인을 채움
+* * *
 - [ ] justify-content
 - [ ] align-content
 - [ ] place-content
+* * *
 - [ ] justify-self
 - [ ] align-self
 - [ ] place-self
