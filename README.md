@@ -159,8 +159,14 @@
 * content의 크기만큼 cell의 크기를 늘린다.
 * repeat(), minmax와 결합하여 반응형 디자인을 만들 수 있다.
 ## SCSS:
-- [ ] Variables
-- [ ] Nesting
+- [x] Variables
+* _variables.scss
+* 앞에 _ 붙어있으면 css로 변하지 않았으면 하는 것들
+* &변수명 : 속성값; 
+- [x] Nesting
+* 타켓하는 코드를 명확하게 해줌
+* 프로그래밍 언어처럼 선택자 중괄호 안에 선택자를 넣게되면 자식 이 됨
+
 - [ ] Partials
 - [ ] Mixins
 - [ ] Extend
