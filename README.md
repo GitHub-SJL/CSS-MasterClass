@@ -159,7 +159,6 @@
 * content의 크기만큼 cell의 크기를 늘린다.
 * repeat(), minmax와 결합하여 반응형 디자인을 만들 수 있다.
 ## SCSS:
-
 - [ ] Variables
 - [ ] Nesting
 - [ ] Partials
