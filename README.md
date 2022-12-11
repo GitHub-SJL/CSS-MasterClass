@@ -174,4 +174,5 @@
 - [x] Extend
 * 다른 코드를 확장하거나 같은 코드를 중복하고 싶지 않을때 사용
 
-- [ ] Responsive
+- [x] Responsive
+* Mixin에서 미디어 쿼리를 이용해 반응형 CSS를 구현
