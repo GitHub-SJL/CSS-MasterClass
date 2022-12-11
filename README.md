@@ -176,3 +176,7 @@
 
 - [x] Responsive
 * Mixin에서 미디어 쿼리를 이용해 반응형 CSS를 구현
+
+
+## To Clone:
+- [ ] Best Horror Scenes [주소](https://besthorrorscenes.com/)
