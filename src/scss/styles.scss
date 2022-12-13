@@ -18,21 +18,20 @@ header {
   background-color: $white;
   width: $fixedWidth;
   height: 100%;
-  padding: 190px;
   padding: 10vh 0 0 72px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-around;
   color: $red;
   h1 {
-    font-size: 85px;
+    font-size: 65px;
     width: 50%;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
     margin-bottom: 40px;
   }
@@ -43,7 +42,7 @@ header {
   }
   p {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 40px;
   }
   nav {
@@ -91,8 +90,23 @@ main {
       width: 80%;
       display: flex;
       flex-direction: column;
-      .Player__img {
+
+      .movie__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        h4 {
+          font-size: 32px;
+          text-transform: uppercase;
+        }
+        h5 {
+          letter-spacing: 2px;
+        }
+      }
+      .player {
         position: relative;
+
         .Player__number {
           position: absolute;
           top: 20;
@@ -106,17 +120,35 @@ main {
           font-size: 20px;
           text-align: center;
         }
-      }
-      .movie__header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 25px;
-        h4 {
-          font-size: 32px;
-          text-transform: uppercase;
-        }
-        h5 {
-          letter-spacing: 2px;
+        .player__voting {
+          position: absolute;
+          top: 0  ;
+          left: 100%;
+          align-items: center;
+          background-image: linear-gradient(to top right, #c82419, #e3291c 50%);
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     
+          div {
+            text-align: center;
+            line-height: 40px;
+          }
+
+          button {
+            background-color:transparent;
+            border: none;
+            font-size: 15px;
+            color: #fff;
+          }
+          button, div {
+
+            padding: 1px;
+            width: 40px;
+            height: 40px;
+          }
         }
       }
     }
